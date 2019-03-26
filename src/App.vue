@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <notebooks-container msg="Notebook sessions to crunch data remotely 👇"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NotebooksContainer from './components/NotebooksContainer.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    NotebooksContainer
   }
 }
 </script>

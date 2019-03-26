@@ -1,0 +1,1 @@
+const deletemefile = 'delete this file';

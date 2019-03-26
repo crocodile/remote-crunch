@@ -1,12 +1,15 @@
 # remote-crunch
 
 What is this:
+
 A simple webapp built with Vue.js to edit and send scripts to Apache Spark for remote computing. The app is built on the top of Apache Livy and uses the Ace code editor library.
 
 Why:
-Run scripts on the top of Apache Hadoop/Spark without the need of getting access to the data, but by instead sendingg scripts to these databases for execution. One practical use would be making use of the MLliib library to train machine learning models on the data remotely.
+
+Run scripts on the top of Apache Hadoop/Spark without the need of getting access to the data, but by instead sending scripts to these databases for execution. One practical use would be making use of the MLliib library to train machine learning models on the data remotely.
 
 Status:
+
 At this point it's rough and experimental for playing around with scripts.
 
 
